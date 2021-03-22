@@ -16,19 +16,17 @@
 	
 	<?php  
 
-/*  
-	Étape 1: Définir une fonction et qui renvoie un calcul de 2 nombres
 
-	Étape 2: Créez une fonction qui transmet des paramètres et appelez-la à l'aide de valeurs de paramètres
+//Étape 1: Définir une fonction et qui renvoie un calcul de 2 nombres
+function somme(){
+	echo '<h2>'.$x + $y.'</h2>';
+}
+//Étape 2: Créez une fonction qui transmet des paramètres et appelez-la à l'aide de valeurs de paramètres
+function somme2($k, $j){
+	echo '<h2>'.$k + $j.'</h2>';
+}
 
- */
-
-	
 ?>
-
-
-
-
 
 </article><!--MAIN CONTENT-->
 

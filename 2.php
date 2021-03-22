@@ -17,24 +17,23 @@
 
 		<?php
 
-		/* 
-		Étape 1: Créez 2 variables appelées number1 et number2 et affecté au number1 la valeur 10 et le deuxième la valeur 20
+		 
+//Étape 1: Créez 2 variables appelées number1 et number2 et affecté au number1 la valeur 10 et le deuxième la valeur 20
+$number1 = 10;
 
-		Étape 2: Ajoutez les deux variables et affichez la somme avec écho:
+$number2 = 20;
+//Étape 2: Ajoutez les deux variables et affichez la somme avec écho:
+echo '<h3>'.$number1 + $number2.'</h3>';
+//Étape 3: Créez 2 tableaux avec les mêmes valeurs, l'un régulier et l'autre associatif
+$associatif = ["ziad" => 20, "ahmed" => 21,];
 
-		Étape 3: Créez 2 tableaux avec les mêmes valeurs, l'un régulier et l'autre associatif
+$regulier = ["ziad", "ahmed"];
+//Étape 4: Créez une constante et définissez-la sur la valeur de PHP. et utilisez un écho pour l'afficher
+define("Title", "Hello User!");
 
-		Étape 4: Créez une constante et définissez-la sur la valeur de PHP. et utilisez un écho pour l'afficher
+echo '<h2>'.Title.'</h2>';
 
-
-			
-
-			 */
-
-		
-
-
-		?>
+?>
 
 	
 

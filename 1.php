@@ -15,21 +15,21 @@
 		
 
 
-		<?php  
+		
+<?php
 
 
-		/* 
-Étape 1: Utilisez la fonction Echo pour afficher bonjour avec des balises html h1 intégrées dans php.
+#Étape 1: Utilisez la fonction Echo pour afficher bonjour avec des balises html h1 intégrées dans php.
 
+$text = "Bonjour";
+echo '<h1>'.$text.'</h1>';
 
-Étape 2: rédigez un commentaire au-dessus de la fonction d'écho et expliquez ce que fait cette fonction. 
+#Étape 2: rédigez un commentaire au-dessus de la fonction d'écho et expliquez ce que fait cette fonction. 
 
+//echo — Affiche une chaîne de caractères
+#echo — Affiche une chaîne de caractères
 
-		   */
-
-		?>
-
-	
+?>
 
 		</article><!--MAIN CONTENT-->
 

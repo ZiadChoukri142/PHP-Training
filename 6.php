@@ -13,16 +13,17 @@
 
 <article class="main-content col-xs-8">
  
+ <form action="6.php" method="post">
+ Name: <input type="text" name="name">
+ </form>
+ 
+ <?php echo $_POST["name"]; ?>
 
-	<?php  
+<?php  
 
-/*  
-	Étape 1: Créez un formulaire qui soumet une seule valeur à POST (super global)
- */
+//Étape 1: Créez un formulaire qui soumet une seule valeur à POST (super global)
 
-	
 ?>
-
 
 </article><!--MAIN CONTENT-->
 <?php include "includes/footer.php" ?>

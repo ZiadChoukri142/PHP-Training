@@ -15,7 +15,7 @@
 	<article class="main-content col-xs-8">
 	
 	
-	<?php  
+<?php  
 
  
 //Étape 1 - Créer une variable avec du texte comme valeur
@@ -31,7 +31,7 @@ $stockedSalt = crypt($txt, $salt);
 //Étape 4 - Échoyez de la variable 
 echo '<h3>'.$stockedSalt.'</h3>';
 
-	?>
+?>
 	
 </article><!--MAIN CONTENT-->
 <?php include "includes/footer.php" ?>

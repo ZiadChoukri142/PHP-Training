@@ -35,8 +35,6 @@ echo '<h2>'.Title.'</h2>';
 
 ?>
 
-	
-
 		</article><!--MAIN CONTENT-->
 
 <?php include "includes/footer.php" ?>

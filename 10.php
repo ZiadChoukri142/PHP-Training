@@ -12,22 +12,40 @@
 <article class="main-content col-xs-8">
 
 	
-	<?php  
+<?php  
 
-	/*  
-	Étape 1: Créez une classe appelée Chien
+//Étape 1: Créez une classe appelée Chien
+//Étape 2: Définissez certaines propriétés pour le Chien, l'exemple, la couleur des yeux, le nez ou la couleur de la fourrure
+//Étape 4: Créez une méthode nommée AfficherTout qui fait écho à toutes les propriétés
+//Étape 5: Instanciez la classe / créez l'objet et appelez-le pitbull
+//Étape 6: Appelez la méthode AfficherTout
 
-	Étape 2: Définissez certaines propriétés pour le Chien, l'exemple, la couleur des yeux, le nez ou la couleur de la fourrure
+	class Chien{
+		
+		public $name;
+		
+		public $type;
 
-	Étape 4: Créez une méthode nommée AfficherTout qui fait écho à toutes les propriétés
+		public $weight;
+		
+		public function setName($name , $type, $weight){
+			$this->name = $name;
+			$this->type = $type;
+			$this->weight = $weight;
+		}
+		
+			
+		public function AfficherTout(){
+			echo $this->name.'<br>';
+			echo $this->type.'<br>';
+			echo $this->weight.'<br>';
+		}
+	}
+	$pitbull = new Chien() ;
+	$pitbull->setName("Andy", "Chien-Police", "75g");
+	echo $pitbull->AfficherTout();
 
-	Étape 5: Instanciez la classe / créez l'objet et appelez-le pitbull
-
-	Étape 6: Appelez la méthode AfficherTout
-	
-	*/
-	
-	?>
+?>
 
 
 
